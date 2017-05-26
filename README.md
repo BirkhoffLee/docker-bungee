@@ -1,4 +1,4 @@
-# docker-bungee
+# docker-bungee [![](https://images.microbadger.com/badges/image/minemystery/docker-bungee.svg)](https://microbadger.com/images/minemystery/docker-bungee)
 The Docker image for running a BungeeCord instance.
 
 # Usage
