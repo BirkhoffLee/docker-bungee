@@ -5,5 +5,5 @@ The Docker image for running a BungeeCord instance.
 ```bash
 $ docker built -t bungee .
 $ docker run -P -e="JAVA_ARGS=-Xmx2G -Xms1G" -v $(pwd)/bungeedata:/data -itd --name bungee bungee
-$ docker attach bungee
+$ docker attach bungee
 ```
