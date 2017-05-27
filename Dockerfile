@@ -5,7 +5,7 @@ ARG BUNGEE_URL=http://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bo
 WORKDIR /data
 ADD "${BUNGEE_URL}" /srv/bungee.jar
 RUN cd /srv && \
-	chmod 444 /srv/bungee.jar && \
+    chmod 444 /srv/bungee.jar && \
     echo "eula=true" > /data/eula.txt
 
 ADD runBungee.sh /usr/local/bin/bungee
