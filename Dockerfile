@@ -7,12 +7,12 @@ ADD "${BUNGEE_URL}" /srv/bungee.jar
 RUN cd /srv && \
     chmod 444 /srv/bungee.jar
 
-ADD runBungee.sh /usr/local/bin/bungee
-RUN chmod +x /usr/local/bin/bungee
+ADD runBungee.sh /usr/local/bin/bungeecord
+RUN chmod +x /usr/local/bin/bungeecord
 
 ENV JAVA_ARGS ""
 ENV BUNGEE_ARGS ""
 
 VOLUME "/data"
 
-CMD ["bungee"]
+CMD ["bungeecord"]
