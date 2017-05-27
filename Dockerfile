@@ -11,7 +11,7 @@ RUN cd /srv && \
 ADD runBungee.sh /usr/local/bin/bungee
 RUN chmod +x /usr/local/bin/bungee
 
-ENV JAVA_ARGS "-Xmx1G"
+ENV JAVA_ARGS ""
 ENV BUNGEE_ARGS ""
 
 VOLUME "/data"
