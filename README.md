@@ -1,4 +1,4 @@
-# docker-bungee
+# docker_bungee
 Our Docker image for running a BungeeCord instance.
 
 # Usage
