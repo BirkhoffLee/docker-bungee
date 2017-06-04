@@ -1,5 +1,5 @@
 # docker-bungee
-The Docker image for running a BungeeCord instance.
+Our Docker image for running a BungeeCord instance.
 
 # Usage
 ```bash
