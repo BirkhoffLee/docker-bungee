@@ -1,5 +1,7 @@
 # docker-bungee
-Our Docker image for running a BungeeCord instance.
+My Docker image for running a BungeeCord instance.
+
+**This repository is no longer being updated; I'm moving this to a private repository. I didn't delete this repository because I hope it can help someone else.**
 
 # Usage
 ```bash
